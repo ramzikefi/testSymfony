@@ -1,0 +1,10 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+users:
+    type:     rest
+    resource: AppBundle\Controller\UserController
+
+groups:
+    type:     rest
+    resource: AppBundle\Controller\GroupsController
